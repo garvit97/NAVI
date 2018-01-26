@@ -17,7 +17,7 @@ from graph_utils import visualize_path
 
 curlocindex=0
 #All methods defined
-class NaVI:
+class NAVI:
 	def __init__(self):
 		self.fav = [None]*10
 		self.map = Graph("graph.gml")
