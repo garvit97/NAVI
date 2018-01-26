@@ -3,12 +3,16 @@
 #include <fcntl.h>			//Used for UART
 #include <termios.h>		//Used for UART
 
+/*
+This file is used to change GPS settings for Neo 6M. The file can be customised by changing tx_buffer[]. The Hex code can be found using the ublox software.
+*/
+
+
 int uart0_filestream = -1;
 		//Open in non blocking read/write mode
 	
 struct termios options;
-	
-	
+
 
 unsigned char tx_buffer[]={
 //5Hz
