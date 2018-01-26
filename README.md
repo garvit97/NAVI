@@ -30,7 +30,7 @@ On Raspberry Pi, all python dependencies can be installed by typing "sudo pip in
 * gmplot
 * nvector
 * filterpy
-* vlc - https://wiki.videolan.org/python_bindings
+* python-vlc
 
 ## Other Dependencies
 
